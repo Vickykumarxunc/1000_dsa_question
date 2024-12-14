@@ -12,7 +12,7 @@ public class _1missing_in_array {
         return ans;
     }
        public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in)
+        Scanner sc = new Scanner(System.in);
             System.out.println("enter the size of the array : ");
             int n = sc.nextInt();
             int arr[] = new int[n];

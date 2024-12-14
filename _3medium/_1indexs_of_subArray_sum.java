@@ -15,7 +15,7 @@ public class _1indexs_of_subArray_sum {
             current_sum += arr[i];
             while(current_sum > sum && j < i){
 
-                sum -= arr[j];
+                current_sum -= arr[j];
                 j++;
             }
             if(current_sum == sum){
@@ -38,6 +38,12 @@ public class _1indexs_of_subArray_sum {
         for(int i = 0; i<n; i++){
             arr[i] = sc.nextInt();
         }
+
+        System.out.println("enter the searched sum : ");
+        int sum = sc.nextInt();
+        ArrayList<Integer> ans = subarraySum(arr, n, sum);
+
+        System.out.println(ans);
 
     }
     

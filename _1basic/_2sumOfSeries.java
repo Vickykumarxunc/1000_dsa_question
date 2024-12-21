@@ -2,7 +2,7 @@ package _1basic;
 
 import java.util.Scanner;
 
-public class _1sumOfSeries {
+public class _2sumOfSeries {
 
     public static int sum_of_n_natural_number(int n){
 
@@ -16,7 +16,7 @@ public class _1sumOfSeries {
 
     int sum = sum_of_n_natural_number(n);
     System.out.println("sum of n natural number = " + sum);
-    
+
 
    } 
     

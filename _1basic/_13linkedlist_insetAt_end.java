@@ -75,8 +75,8 @@ public class _13linkedlist_insetAt_end {
         printList(a);
         
         insert_at_end(a, 6);
-        insert_at_end(e, 7);
-        insert_at_end(e, 8);
+        insert_at_end(a, 7);
+        insert_at_end(a, 8);
 
         printList(a);
 

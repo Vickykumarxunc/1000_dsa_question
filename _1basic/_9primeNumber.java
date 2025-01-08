@@ -6,6 +6,7 @@ public class _9primeNumber {
     // this is the trial divison method ; 
     public static boolean isPrime(int n){
 
+        // 1 and 0 neighter be prime nor be composite : 
         if(n == 0 || n == 1){
             return false;
         }
